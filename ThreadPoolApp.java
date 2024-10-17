@@ -30,7 +30,7 @@ public class ThreadPoolApp {
 
     private static void error() {
         System.out.println("ThreadPoolApp must be run with two positive valued " +
-        " integer arguments. The first detailing the number of jobs " +
+        " integer arguments. \nThe first detailing the number of jobs, and" +
         " the second the number of processing threads in the pool");
         System.exit(0); // exit program
     }
