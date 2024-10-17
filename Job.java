@@ -1,3 +1,11 @@
+/**
+ * The {@code Job} class implements the {@code Runnable} interface and represents a unit of work
+ * that can be executed by a thread. Each job is identified by a unique job number.
+ * 
+ * <p>This class simulates work by making the thread sleep for a short period of time.
+ * 
+ * @author Lorenzo Meixieira
+ */
 public class Job implements Runnable {
   private int jobNumber;
 
